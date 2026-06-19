@@ -1,4 +1,5 @@
-name: Tyrantanium Synthesizer
+name: tep-tyrantanium-synthesizer
+internalName: Tyrantanium Synthesizer
 description: Synthesizes Tyrantanium with tyrancrinominite and titanium using very high currents and heat. Requires graphite to burn.
 type: GenericCrafter
 category: crafting

@@ -1,4 +1,5 @@
-name: Erenothorium Extorter
+name: tep-erenothorium-smelter
+internalName: Erenothorium Extorter
 description: Smelts Erenium and Thorium together to obtain Erenothorium. Requires a lot of power.
 type: GenericCrafter
 category: crafting
