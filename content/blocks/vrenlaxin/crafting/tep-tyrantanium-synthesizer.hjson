@@ -5,7 +5,7 @@ type: GenericCrafter
 category: crafting
 hasItems: true
 acceptsItems: true
-# craft time (s) = n/10
+// craft time (s) = n/10
 craftTime: 480
 size: 3
 itemCapacity: 20
@@ -15,20 +15,31 @@ ambientSoundVolume: 0.5
 destroySound: blockExplode3
 ambientSound: loopSmelter
 outputItem: tep-tyrantanium/8
-# construction cost
+// construction cost
 requirements: [
   tep-tyrancrinominite/30
   copper/45
   lead/25
   titanium/15
 ]
-# input resources
+// input resources
 consumes: {
   items: [
     tep-tyrancrinominite/2
     titanium/16
     graphite/4
   ]
-  # power (u) = n*60
+  // power (u) = n*60
   power: 2.5,
+}
+drawTop: false
+drawHeat: false
+drawer: {
+  {
+    // draws the base of the block
+  }
+  {
+    type: DrawFlame
+    flameColor: a2a9ec
+  }
 }
