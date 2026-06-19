@@ -6,6 +6,6 @@ charge: 0
 flammability: 0
 explosiveness: 0
 healthScaling: 10
-color: "#E5FFFB"
+color: "#9cacce"
 buildable: true
 research: tep
