@@ -36,7 +36,7 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawDefault
+      // draws the base of the block
     }
     {
       type: DrawFlame
