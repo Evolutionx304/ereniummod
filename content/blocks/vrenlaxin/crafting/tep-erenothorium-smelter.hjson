@@ -30,6 +30,7 @@ consumes: {
   ]
   # power = n*60
   power: 1.2,
+}
 drawer: {
 type: DrawMulti
 drawers: [
@@ -41,7 +42,6 @@ type: DrawFlame
 flameColor: f46b87
 }
 ]
-}
 }
 craftEffect: {
     type: smoke
