@@ -33,6 +33,7 @@ consumes: {
   power: 1.2,
 }
 drawTop: false
+drawHeat: false
 drawer: {
   type: DrawMulti
   drawers: [
