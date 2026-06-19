@@ -30,6 +30,18 @@ consumes: {
   ]
   # power = n*60
   power: 1.2,
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawDefault
+}
+{
+type: DrawFlame
+flameColor: f46b87
+}
+]
+}
 }
 craftEffect: {
     type: smoke
@@ -41,16 +53,4 @@ lifetime: 22
     colorFrom: be56c77
     colorTo: bf92f960
     cone: 360
-}
-drawer: {
-type: DrawMulti
-drawers: [
-{
-type: DrawDefault
-}
-{
-type: DrawFlame
-flameColor: 
-}
-]
 }
