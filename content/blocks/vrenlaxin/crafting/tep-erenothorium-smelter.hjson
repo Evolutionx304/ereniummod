@@ -6,7 +6,7 @@ category: crafting
 hasItems: true
 acceptsItems: true
 craftTime: 60
-# craft time (s) = n/10
+// craft time (s) = n/10
 size: 2
 itemCapacity: 10
 placeSound: blockPlace2
@@ -15,7 +15,7 @@ ambientSoundVolume: 0.5
 destroySound: blockExplode2
 ambientSound: loopSmelter
 outputItem: tep-erenothorium/4
-# construction cost
+// construction cost
 requirements: [
   tep-erenium/5
   thorium/5
@@ -23,21 +23,23 @@ requirements: [
   lead/25
   titanium/10
 ]
-# input resources
+// input resources
 consumes: {
   items: [
     tep-erenium/2
     thorium/2
   ]
-  # power = n*60
+  // power = n*60
   power: 1.2,
 }
+drawTop: false
 drawer: {
   type: DrawMulti
   drawers: [
     {
       // draws the base of the block
     }
+
     {
       type: DrawFlame
       flameColor: f46b87
