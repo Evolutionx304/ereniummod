@@ -35,13 +35,16 @@ consumes: {
 drawTop: false
 drawHeat: false
 drawer: {
-  {
-    // draws the base of the block
-  }
-  {
-    type: DrawFlame
-    flameColor: f46b87
-  }
+  type: DrawMulti
+  drawers: [
+    {
+      // draws the base of the block
+    },
+    {
+      type: DrawFlame
+      flameColor: f46b87
+    }
+  ]
 }
 craftEffect: {
     type: smoke

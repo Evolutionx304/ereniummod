@@ -32,14 +32,20 @@ consumes: {
   // power (u) = n*60
   power: 2.5,
 }
-drawTop: false
 drawHeat: false
 drawer: {
-  {
-    // draws the base of the block
-  }
-  {
-    type: DrawFlame
-    flameColor: a2a9ec
-  }
+  type: DrawMulti
+  drawers: [
+    {
+      // draws the base of the block
+    },
+    {
+      type: DrawRegion
+      suffix: "-top"
+    },
+    {
+      type: DrawFlame
+      flameColor: efd2ff
+    }
+  ]
 }
