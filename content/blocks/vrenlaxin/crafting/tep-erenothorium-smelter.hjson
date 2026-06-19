@@ -1,6 +1,6 @@
 internalName: tep-erenothorium-smelter
 localizedName: Erenothorium Smelter
-description: Smelts Erenium and Thorium together to obtain Erenothorium. Requires a lot of power.
+description: Smelts Erenium and Thorium together to obtain Erenothorium. Requires power.
 type: GenericCrafter
 category: crafting
 hasItems: true
@@ -20,7 +20,6 @@ requirements: [
   tep-erenium/5
   thorium/5
   copper/20
-  lead/25
   titanium/10
 ]
 // input resources
@@ -32,7 +31,6 @@ consumes: {
   // power = n*60
   power: 1.2,
 }
-drawTop: false
 drawHeat: false
 drawer: {
   type: DrawMulti
@@ -41,19 +39,12 @@ drawer: {
       // draws the base of the block
     },
     {
+      type: DrawRegion
+      suffix: "-top"
+    },
+    {
       type: DrawFlame
       flameColor: f46b87
     }
   ]
-}
-craftEffect: {
-    type: smoke
-    particles: 12
-length: 17
-lifetime: 22
-    sizeFrom: 2
-    sizeTo: 1
-    colorFrom: be56c77
-    colorTo: bf92f960
-    cone: 360
 }
