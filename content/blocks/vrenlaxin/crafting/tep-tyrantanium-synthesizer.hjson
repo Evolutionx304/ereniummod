@@ -40,10 +40,6 @@ drawer: {
       // draws the base of the block
     },
     {
-      type: DrawRegion
-      suffix: "-top"
-    },
-    {
       type: DrawFlame
       flameColor: efd2ff
     }
