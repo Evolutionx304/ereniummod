@@ -1,0 +1,33 @@
+name: Tyrantanium Synthesizer
+description: Synthesizes Tyrantanium with tyrancrinominite and titanium using very high currents and heat. Requires graphite to burn.
+type: GenericCrafter
+category: crafting
+hasItems: true
+acceptsItems: true
+# craft time (s) = n/10
+craftTime: 480
+size: 3
+itemCapacity: 20
+placeSound: blockPlace3
+breakSound: blockBreak3
+ambientSoundVolume: 0.5
+destroySound: blockExplode3
+ambientSound: loopSmelter
+outputItem: tep-tyrantanium/8
+# construction cost
+requirements: [
+  tep-tyrancrinominite/30
+  copper/45
+  lead/25
+  titanium/15
+]
+# input resources
+consumes: {
+  items: [
+    tep-tyrancrinominite/2
+    titanium/16
+    graphite/4
+  ]
+  # power (u) = n*60
+  power: 2.5,
+}

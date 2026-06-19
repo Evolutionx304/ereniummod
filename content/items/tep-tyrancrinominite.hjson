@@ -1,0 +1,11 @@
+name: "Tyrancrinominite "
+description: "Dense, hard metal found only near Tyrannyte volcanoes. Shipwrecks contain large deposits of this inert metal."
+hardness: 10
+cost: 5
+charge: 0
+flammability: 0
+explosiveness: 0
+healthScaling: 10
+color: "#E5FFFB"
+buildable: true
+research: tep

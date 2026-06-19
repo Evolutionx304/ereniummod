@@ -1,0 +1,15 @@
+name: Erenothorium Wall
+description: Protects structures from enemy projectiles.
+armor: 15
+destroySoundVolume: 1
+useColor: false
+group: walls
+type: Wall
+size: 1
+health: 410
+databaseTag: defense
+category: defense
+buildTime: 12
+requirements: [
+  tep-erenothorium/6
+]

@@ -1,0 +1,15 @@
+{
+ cost:7,
+ color:"#FF4162",
+ research:tep,
+ healthScaling: 0.5,
+ flammability: 0,
+ radioactivity: 1,
+ charge: 1.6,
+ hardness: 6,
+ explosiveness: 0,
+ buildable: true,
+ name: Erenium,
+ description: "Raw, Energized erenium ore. The origins of this ore is unknown.",
+}
+# raw erenium ore

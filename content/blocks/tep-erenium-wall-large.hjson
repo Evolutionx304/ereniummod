@@ -1,0 +1,16 @@
+name: Large Erenium Wall
+description: Protects structures from enemy projectiles.
+armor: 7
+destroySoundVolume: 1
+useColor: false
+group: walls
+type: Wall
+size: 2
+health: 840
+databaseTag: defense
+buildTime: 40
+category: defense
+requirements: [
+  tep-erenium/24
+]
+

@@ -1,0 +1,15 @@
+name: Erenium Wall
+description: Protects structures from enemy projectiles.
+armor: 7
+destroySoundVolume: 1
+useColor: false
+group: walls
+type: Wall
+size: 1
+health: 210
+databaseTag: defense
+category: defense
+buildTime: 10
+requirements: [
+  tep-erenium/6
+]
