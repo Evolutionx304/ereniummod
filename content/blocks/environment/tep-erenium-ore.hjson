@@ -1,4 +1,4 @@
 type: OreBlock
 localizedName: Erenium Ore
-itemdrop: tep-erenium
+itemDrop: tep-erenium
 variants: 3
