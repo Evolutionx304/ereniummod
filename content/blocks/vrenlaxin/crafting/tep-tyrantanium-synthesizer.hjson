@@ -43,7 +43,9 @@ drawer: {
       type: DrawFlame
       flameColor: efd2ff
       flameRadiusIn: 0.5
-      flameRadiusScl: 1.5
+      flameRadius: 0.67
+      //RADIUSSCL MEANS THE PULSATION SPEED
+      flameRadiusScl: 0.7
     }
   ]
 }
