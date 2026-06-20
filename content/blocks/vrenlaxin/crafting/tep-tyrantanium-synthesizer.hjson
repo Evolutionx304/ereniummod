@@ -1,12 +1,12 @@
 internalName: tep-tyrantanium-synthesizer
 localizedName: Tyrantanium Synthesizer
-description: Synthesizes Tyrantanium with tyrancrinominite and titanium using very high currents and heat. Requires graphite to burn.
+description: Synthesizes Tyrantanium with tyrancrinominite and titanium using very high currents and heat. Requires graphite to burn at extreme temperatures.
 type: GenericCrafter
 category: crafting
 hasItems: true
 acceptsItems: true
-// craft time (s) = n/10
-craftTime: 480
+// craft time (s) = n/60
+craftTime: 240
 size: 3
 itemCapacity: 20
 placeSound: blockPlace3
@@ -26,7 +26,7 @@ requirements: [
 consumes: {
   items: [
     tep-tyrancrinominite/2
-    titanium/16
+    titanium/8
     graphite/4
   ]
   // power (u) = n*60
@@ -42,6 +42,8 @@ drawer: {
     {
       type: DrawFlame
       flameColor: efd2ff
+      flameRadiusIn: 0.5
+      flameRadiusScl: 1.5
     }
   ]
 }
