@@ -3,13 +3,43 @@ localizedName: Reactor Drill
 description: Special drill self-powered by an internal erenium reactor. Slow, but can drill through very high tier ores.
 size: 3
 tier: 6
+hardnessDrillMultiplier: 6
+liquidBoostIntensity: 1.9
 type: Drill
-drillTime: 300
+category: production
+hidden: false
+buildable: true
+drillTime: 240
 warmupSpeed: 0.15
 rotateSpeed: 0.5
 updateEffect: pulverizeSmall
 updateEffectChance: 0.05
 drawSpinSprite: true
+drawRim: true
+itemCapacity: 10
+liquidCapacity: 20
+requirements: [
+  tep-erenium/20
+  copper/50
+  lead/30
+  titanium/20
+]
+consumes: {
+    power: {
+      power: 1
+      optional: true
+      booster: true
+    },
+    liquid: {
+      liquid: water
+      amount: 0.1
+      optional: true
+      booster: true
+    }
+    liquids: [
+        water/0.333333
+    ]
+}
 drawer:
   type: DrawMulti
   drawers: [
@@ -23,6 +53,10 @@ drawer:
     {
       type: rotatorRegion
       suffix: "-rotator"
+    },
+    {
+      type: rimRegion
+      suffix: "-rim"
     },
     {
       type: topRegion
