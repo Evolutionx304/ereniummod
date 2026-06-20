@@ -1,6 +1,6 @@
 name: Large Erenium Wall
-description: Protects structures from enemy projectiles.
-armor: 7
+description: Protects structures from enemy projectiles. Heavily armored, but low health.
+armor: 14
 destroySoundVolume: 1
 useColor: false
 group: walls

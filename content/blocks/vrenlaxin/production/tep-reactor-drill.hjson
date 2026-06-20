@@ -4,7 +4,7 @@ description: Special drill self-powered by an internal erenium reactor. Slow, bu
 size: 3
 tier: 6
 hardnessDrillMultiplier: 6
-liquidBoostIntensity: 3
+liquidBoostIntensity: 1.2
 type: Drill
 category: production
 hidden: false
@@ -37,9 +37,9 @@ consumes: {
       booster: true
     }
     liquids: [
-      water/0.333333
+      water/0.0333333
     ]
     items: [
-      tep-erenium/0.033333
+      tep-erenium/0.5
     ]
 }

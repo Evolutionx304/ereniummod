@@ -1,6 +1,6 @@
 name: Large Erenothorium Wall
-description: Protects structures from enemy projectiles.
-armor: 15
+description: Protects structures from enemy projectiles. Heavily armored, but low health.
+armor: 30
 destroySoundVolume: 1
 useColor: false
 group: walls
