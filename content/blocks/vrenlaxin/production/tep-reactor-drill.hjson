@@ -1,0 +1,36 @@
+internalName: tep-reactor-drill
+localizedName: Reactor Drill
+description: Special drill self-powered by an internal erenium reactor. Slow, but can drill through very high tier ores.
+size: 3
+tier: 6
+type: Drill
+drillTime: 300
+warmupSpeed: 0.15
+rotateSpeed: 0.5
+updateEffect: pulverizeSmall
+updateEffectChance: 0.05
+drawSpinSprite: true
+drawer:
+  type: DrawMulti
+  drawers: [
+    {
+      // draws the base of the block
+    },
+    {
+      type: RimRegion
+      suffix: "-rim"
+    },
+    {
+      type: rotatorRegion
+      suffix: "-rotator"
+    },
+    {
+      type: topRegion
+      suffix: "-top"
+    },
+    {
+      type: DrawFlame
+      flameColor: ff94aa
+      flameRadius: 1
+    }
+  ]

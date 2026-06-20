@@ -1,0 +1,4 @@
+type: OreBlock
+localizedName: Tyrancrinominite Ore
+itemDrop: tep-tyrancrinominite
+variants: 3

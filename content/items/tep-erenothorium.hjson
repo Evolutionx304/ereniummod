@@ -1,16 +1,14 @@
-{
- buildable: true,
- hardness: 6,
- cost: 10,
- charge: 1.6,
- radioactivity: 1.6,
- flammability: 0,
- explosiveness: 0,
- healthScaling: 0.7,
- color: "#CB4763",
- research: tep-erenium,
- name: "Erenothorium Alloy",
- description: "Extremely tough alloy consisting of erenium and thorium. This alloy generates a lot of atomic radiation, making it a viable fuel for reactors.",
- localizedName: "Erenothorium Alloy",
-}
+buildable: true
+hardness: 6
+cost: 10
+charge: 1.6
+radioactivity: 1.6
+flammability: 0
+explosiveness: 0
+healthScaling: 0.7
+color: "#CB4763"
+research: tep-erenium
+name: "Erenothorium Alloy"
+description: "Extremely tough alloy consisting of erenium and thorium. This alloy generates a lot of atomic radiation, making it a viable fuel for reactors.",
+localizedName: "Erenothorium Alloy"
 # refined erenium ore for reactors and better walls
