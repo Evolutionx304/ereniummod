@@ -43,7 +43,7 @@ consumes: {
       tep-erenium/0.033333
     ]
 }
-drawer:
+drawer: {
   type: DrawMulti
   drawers: [
     {
@@ -54,16 +54,12 @@ drawer:
       suffix: "-rim"
     },
     {
-      type: rimRegion
-      suffix: "-rim"
-    },
-    {
       type: topRegion
       suffix: "-top"
     },
     {
       type: DrawFlame
       flameColor: ff94aa
-      flameRadius: 1
     }
   ]
+}
