@@ -43,23 +43,3 @@ consumes: {
       tep-erenium/0.033333
     ]
 }
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      // draws the base of the block
-    },
-    {
-      type: RimRegion
-      suffix: "-rim"
-    },
-    {
-      type: topRegion
-      suffix: "-top"
-    },
-    {
-      type: DrawFlame
-      flameColor: ff94aa
-    }
-  ]
-}
