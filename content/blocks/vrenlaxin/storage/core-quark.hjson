@@ -2,6 +2,7 @@ localizedName: Core: Quark
 description: Core of the base. Weak, but smaller than other cores. Once the core is destroyed, the sector is lost. Produces power.
 health: 750
 type: CoreBlock
+size: 2
 thrusterLength: 3.5
 thrusterOffset: 0
 isFirstTier: true
