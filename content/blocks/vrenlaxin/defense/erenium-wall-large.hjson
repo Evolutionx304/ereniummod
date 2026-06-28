@@ -1,15 +1,16 @@
-name: Large Erenothorium Wall
+localizedName: Large Erenium Wall
 description: Protects structures from enemy projectiles. Heavily armored, but low health.
-armor: 30
+armor: 14
 destroySoundVolume: 1
 useColor: false
 group: walls
 type: Wall
 size: 2
-health: 1640
+health: 840
 databaseTag: defense
+buildTime: 40
 category: defense
-buildTime: 48
 requirements: [
-  tep-erenothorium/24
+  erenium/24
 ]
+

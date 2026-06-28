@@ -1,3 +1,4 @@
+localizedName: Erenothorium Alloy
 buildable: true
 hardness: 6
 cost: 10
@@ -7,7 +8,7 @@ flammability: 0
 explosiveness: 0
 healthScaling: 0.7
 color: "#CB4763"
-research: tep-erenium
+research: erenium
 name: "Erenothorium Alloy"
 description: "Extremely tough alloy consisting of erenium and thorium. This alloy generates a lot of atomic radiation, making it a viable fuel for reactors.",
 localizedName: "Erenothorium Alloy"

@@ -1,4 +1,4 @@
-name: "Tyrantanium Alloy"
+localizedName: Tyrantanium Alloy
 description: "The strongest Alloy created by the [REDACTED]. Uses with the alloy is limited due to the extremely high temperatures required to melt it."
 hardness: 8
 cost: 15
@@ -9,4 +9,4 @@ explosiveness: 0
 healthScaling: 0.8
 color: "#a2a9ec"
 buildable: true
-research: tep-tyrancrinominite
+research: tyrancrinominite

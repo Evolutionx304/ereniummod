@@ -13,6 +13,17 @@ This will certainly make my computer science teacher proud, right?
 
 Expect slow updates (I'm learning), but something significant because this is stuff I want to add and not something useless.
 
+**Texture changes:** <small>Very likely to be its own texture mod</small>
+
+- Revamp vanilla and mod item textures to follow a consistent and realistic set of colors and structure
+- Change block textures to accurately reflect their materials
+- Add an extra level of shading to turrets to be more consistent with blocks and units
+
+**Content changes:**
+
+* Create a useable set of blocks under the Erenium and Tyrancrinominite sets
+* Add a separate campaign set after Serpulo (Interplanetary Accelerator substitute)
+
 ## CREDITS:
 Arcaenus/Daizo/Evolution (ALL ONE PERSON)
 

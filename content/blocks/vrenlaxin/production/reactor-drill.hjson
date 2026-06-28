@@ -1,4 +1,4 @@
-internalName: tep-reactor-drill
+internalName: reactor-drill
 localizedName: Reactor Drill
 description: Special drill self-powered by an internal erenium reactor. Slow, but can drill through very high tier ores. Optionally boosted by cryofluid and power. Requires water and erenium to run.
 size: 3
@@ -19,7 +19,7 @@ drawRim: true
 itemCapacity: 10
 liquidCapacity: 20
 requirements: [
-  tep-erenium/20
+  erenium/20
   thorium/25
   lead/50
   titanium/20
@@ -40,6 +40,6 @@ consumes: {
       water/0.0333333
     ]
     items: [
-      tep-erenium/0.5
+      erenium/0.5
     ]
 }

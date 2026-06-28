@@ -1,4 +1,4 @@
-internalName: tep-tyrantanium-synthesizer
+internalName: tyrantanium-synthesizer
 localizedName: Tyrantanium Synthesizer
 description: Synthesizes Tyrantanium with tyrancrinominite and titanium using very high currents and heat. Requires graphite to burn at extreme temperatures.
 type: GenericCrafter
@@ -14,10 +14,10 @@ breakSound: blockBreak3
 ambientSoundVolume: 0.5
 destroySound: blockExplode3
 ambientSound: loopSmelter
-outputItem: tep-tyrantanium/8
+outputItem: tyrantanium/8
 // construction cost
 requirements: [
-  tep-tyrancrinominite/30
+  tyrancrinominite/30
   copper/45
   lead/25
   titanium/15
@@ -25,7 +25,7 @@ requirements: [
 // input resources
 consumes: {
   items: [
-    tep-tyrancrinominite/2
+    tyrancrinominite/2
     titanium/8
     graphite/4
   ]
